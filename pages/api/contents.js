@@ -27,7 +27,7 @@ contentData.push({
 contentData.push({
   level1: 'Article 2 Content 2',
   level2: [{
-    title: 'Article 2 - L2 section title 2',
+    title: 'Article 2 - L2 section 1 title',
     summary: 'L2 section title 2 summary with keyword 3',
     keywords: ['Keyword 3'],
     level3: {

@@ -20,7 +20,7 @@ function createRows(contentData, selectedKeywords, handleClick) {
           <div className={`${styles['article-row']}`} key={key}>
             <h3>{level1Content.level2[j].title}</h3>
             <div dangerouslySetInnerHTML={{ __html: level1Content.level2[j].summary }} />
-            <h4>{keywords}</h4>
+            <h4>Topics: {keywords}</h4>
             <button className={`${styles['read-button']}`} onClick={() => handleClick(articleIndex, articleSectionIndex)}>
               Read article
             </button>
