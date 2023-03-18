@@ -2,6 +2,7 @@
 
 const contentData = [];
 contentData.push({
+  articalId: 1,
   level1: 'Article 1 Content 1',
   level2: [{
     title: 'Article 1 - L2 section 1 title',
@@ -25,6 +26,7 @@ contentData.push({
 });
 
 contentData.push({
+  articalId: 2,
   level1: 'Article 2 Content 2',
   level2: [{
     title: 'Article 2 - L2 section 1 title',
