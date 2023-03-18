@@ -1,0 +1,126 @@
+.container {
+    background-color: #f0f8ff;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    height: fit-content;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+.answer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+.button {
+    width: 100%;
+    height: 3rem;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.radioInput {
+    margin-right: 10px;
+}
+
+.radioLabel {
+    font-size: 1.2rem;
+}
+
+.selectLabel {
+    font-size: 1rem;
+    font-weight: regular;
+    margin-bottom: 5px;
+}
+
+
+.select {
+    width: 100%;
+    height: 3rem;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.select option {
+    height: 3rem;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.textInputLabel {
+    font-size: 1rem;
+    font-weight: regular;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.textInput {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}

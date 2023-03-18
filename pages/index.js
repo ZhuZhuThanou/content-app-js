@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import SideMenu from '../components/SideMenu';
-
 import styles from '@/styles/Home.module.css'
 
 
@@ -20,7 +20,7 @@ function createRows(contentData, selectedKeywords, handleClick) {
           <div className={`${styles['article-row']}`} key={key}>
             <h3>{level1Content.level2[j].title}</h3>
             <div dangerouslySetInnerHTML={{ __html: level1Content.level2[j].summary }} />
-            <h4>Topics: {keywords}</h4>
+            <h4>{keywords}</h4>
             <button className={`${styles['read-button']}`} onClick={() => handleClick(articleIndex, articleSectionIndex)}>
               Read article
             </button>
@@ -55,7 +55,7 @@ export default function Home() {
 
   const handleClick = (articleIndex, articleSectionIndex) => {
     console.log('Hello world', articleIndex, articleSectionIndex);
-    setSelectedContentToRead({articleIndex: articleIndex, sectionIndex: articleSectionIndex});
+    setSelectedContentToRead({ articleIndex: articleIndex, sectionIndex: articleSectionIndex });
   }
 
   useEffect(() => {
@@ -74,6 +74,9 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <Link href="/quiz">
+        <button className={`${styles.anchorButton}`}>Start Quiz</button>
+      </Link>
       <div className={`${styles.row} ${styles.topRow}`}>
 
         <label htmlFor="my-select">Select some keywords:</label>
@@ -86,7 +89,7 @@ export default function Home() {
         <p>Selected options: {selectedKeywordOptions.join(', ')}</p>
       </div>
 
-    
+
       <div className={`${styles.row} ${styles.bottomRow}`}>{contentHits}</div>
       <div className={`${styles.row} ${styles.bottomRow}`}>
         <SideMenu selectedContentToRead={selectedContentToRead} />
