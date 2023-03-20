@@ -15,8 +15,8 @@ export default function Quiz() {
                 <button className={`${styles.anchorButton}`}>Go back to quiz</button>
             </Link>
            {state.tasks.map((task) => (
-             <Accordion title = {task.title}>
-                <p>task.description</p>
+             <Accordion key= {task.id} title = {task.title}>
+                <div dangerouslySetInnerHTML={{__html: task.description}}></div>
              </Accordion>
            ))}
         </div>

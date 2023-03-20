@@ -6,14 +6,14 @@ const question01Answer01Tasks = [{
     id: 1,
     answerId: 'q01a01',
     title: 'How to travel safely',
-    description: 'Description of traveling safely',
+    description: "Traveling can be a wonderful experience, but it's important to prioritize safety while on the go. There are several measures you can take to ensure you travel safely. Firstly, research your destination ahead of time and become familiar with any potential safety concerns such as high crime rates or areas to avoid. Always keep your belongings close to you and secure, especially in crowded areas or public transportation. Consider investing in a money belt or other anti-theft device to keep your valuables safe. When using public transportation, be aware of your surroundings and avoid falling asleep or becoming too distracted by your phone or other devices. Additionally, make sure to keep important documents such as your passport and travel insurance in a secure location, and keep digital copies of these documents in case of emergency. Finally, it's always a good idea to stay in touch with friends or family back home and inform them of your travel plans and itinerary. By taking these precautions and being mindful of your surroundings, you can ensure a safe and enjoyable travel experience.",
     links: ['http://url.com']
 },
 {
     id: 2,
     answerId: 'q01a01',
-    title: 'How to travel cheaply',
-    description: 'Description of traveling cheaply',
+    title: 'Budget travels allow you to experience more!',
+    description: "<b>Budget travel</b> can be a great way to experience more culture and immerse yourself in the local way of life. When you travel on a tight budget, you tend to stay in less touristy areas and eat at local restaurants, which allows you to interact more with the locals and experience their way of life. You can also explore the local markets and shops, where you can find unique souvenirs and experience the daily life of the locals. Additionally, budget travel often involves using public transportation or walking, which gives you a chance to see more of the city or town and observe how the locals live. Overall, budget travel can provide a rich and authentic cultural experience that may not be possible when staying in high-end hotels and resorts.",
     links: ['http://url.com']
 }];
 
