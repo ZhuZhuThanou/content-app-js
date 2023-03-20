@@ -12,8 +12,8 @@ const question01Answer01Tasks = [{
 {
     id: 2,
     answerId: 'q01a01',
-    title: 'How to travel safely',
-    description: 'Description of traveling safely',
+    title: 'How to travel cheaply',
+    description: 'Description of traveling cheaply',
     links: ['http://url.com']
 }];
 
@@ -28,11 +28,13 @@ const question01Answer02Tasks = [{
 const question01Answer01 = {
     id: 'q01a01',
     answerText: 'Yes',
+    selected: false,
     tasks: question01Answer01Tasks
 }
 const question01Answer02 = {
     id: 'q01a02',
     answerText: 'No',
+    selected: false,
     tasks: question01Answer02Tasks
 }
 

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React, { useContext } from 'react';
-import AppStateContext from '../../state/AppStateContext';
 
 import QuizCardQ1 from '@/components/QuizCardQ1';
 import QuizCardQ2 from '@/components/QuizCardQ2';
@@ -12,10 +11,8 @@ import styles from '@../../styles/Quiz.module.css';
 
 export default function Quiz() {
 
-    const { state, setState } = useContext(AppStateContext);
-
     return (
-        <div>
+        <div className={styles.container}>
             <Link href="/">
                 <button className={`${styles.anchorButton}`}>Go back home</button>
             </Link>
