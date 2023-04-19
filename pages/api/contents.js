@@ -34,7 +34,7 @@ contentData.push({
     keywords: ['Keyword 3'],
     level3: {
       contents: [{ heading: 'heading 1', content: 'heading 1 contents' }
-        , { heading: 'heading 2', content: 'heading 2 contents with keyword 3' }]
+        , { heading: 'heading 2a', content: 'heading 2 contents with keyword 3' }]
     }
   }]
 });
