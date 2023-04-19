@@ -1,0 +1,36 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "order": 1,
+      "question_fr": "Quand comptez-vous prendre votre retraite ?",
+      "question_en": "When do you plan on retiring?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "order": 1,
+          "answer_fr": "Avant 65 ans",
+          "answer_en": "Before age 65"
+        },
+        {
+          "id": "q1a2",
+          "order": 2,
+          "answer_fr": "Avant 65 ans",
+          "answer": "Before age 65"
+        },
+        {
+          "id": "q1a3",
+          "order": 3,
+          "answer_fr": "Après 65 ans",
+          "answer": "After age 65"
+        },
+        {
+          "id": "q1a4",
+          "order": 4,
+          "answer_fr": "Pas certain",
+          "answer": "Not sure"
+        }
+      ]
+    }
+  ]
+}

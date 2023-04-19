@@ -1,0 +1,24 @@
+{
+  "steps": [{
+    "id": 1,
+    "order": 1,
+    "answerId": "q1a1",
+    "description_fr": "lorem ipsum",
+    "description_en": "lorem ipsum",
+  },
+  {
+    "id": 2,
+    "order": 2,
+    "answerId": "q1a1",
+    "description_fr": "lorem ipsum 2",
+    "description_en": "lorem ipsum 2",
+  },
+  {
+    "id": 3,
+    "order": 3,
+    "answerId": "q1a2",
+    "description_fr": "lorem ipsum 3",
+    "description_en": "lorem ipsum 3",
+  }
+]
+}
